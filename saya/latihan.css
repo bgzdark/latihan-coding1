@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    /* background-image: url(/saya/wallpaperflare.com_wallpaper\ \(2\).jpg);
+    background-position: 50%; */
+    color: #8ac347;
+    backdrop-filter: blur(degree-of-blur);
+}
+nav{
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: yellow;
+    color: white;
+    padding: 10px;
+}
+
+.nav_brand{
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 5px;
+    padding-right: 20px;
+}
+
+.nav-link{
+    display: flex;
+    gap: 80px;
+    padding-right: 20px;
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.main_content{
+    width: 80%;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 5em;
+    box-shadow: 0 0 1rem 0 rgba(0,0,0, .2);
+    border-radius: 5px;
+    position: relative;
+    background: inherit;
+    overflow: hidden;
+}
+
+.main_content:before{
+    filter: blur(10px);
+    position: absolute;
+    background: inherit;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    margin: -20px;
+}
+
+.profil{
+    margin-top: -200px;
+    text-align: center;
+}
+
+h2{
+    
+}
+
+.jumbo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container{
+    padding: 10px;
+    margin: 5%;
+    border-radius: 20px;
+    background-color: rgb(231, 248, 0);
+}
+
+.image-container:hover{
+    transition: 175ms;
+    transform: scale(1.1);
+    padding: 15px;
+    margin: 5%;
+    background: rgb(244, 255, 86);
+    border-radius: 20px;
+    box-shadow: 5px 5px 50px 8px rgb(238, 255, 0);
+}
+
+image.image-container::after{
+    padding: 10px;
+    margin: 5%;
+    border-radius: 20px;
+    background-color: skyblue;
+}
+
+.title{
+    text-align: center;
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+.subtitle{
+    text-align: center;
+    font-size: 1.5em;
+    letter-spacing: 1.5px;
+    margin-top: -40px;
+}
+
+.description{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    margin-top: -15px;
+    letter-spacing: 1px;
+}
+.education-knowladge{
+    display: flex;
+    width: 10%;
+    
+
+}
+.education-certification{
+    display:inline;
+    margin: 0 500px 300px;
+    padding: 100px 200px 300px;
+}
+.education{
+    width: 10%;
+}
+
+.edu-school > p{
+    /* margin-top: -10px; */
+
+}
+.title_education1{
+    margin-top: 10px;
+}
+
+.title-education{
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 1px;
+    margin-top: -100px;
+}
+.line-vertical{
+    margin: 0 350px 0px;
+    margin-top: -100px;
+    transform: rotate(180deg);
+    background: #8ac347;
+    height: 200px;
+    width: 2px;
+}
+.description-education{
+    float:unset  ;
+}

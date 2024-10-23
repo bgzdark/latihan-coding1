@@ -1,0 +1,28 @@
+
+/* keyframe untuk menambahkan transisi untuk animasi */
+@keyframes bergerak{
+    from{
+        transform: scale(5);
+    }
+    tp{
+        transform: scale(1);
+    }
+}
+
+
+/* transition duration dan delay untuk meelakukan dengan timing tertentu */
+/* untuk transition propertu untuk mentransisi kan maksud dari tag2 yang dimaksud */
+.dog{
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+    transition-property: transform filter;
+    transition-timing-function: ease-in-out ;
+}
+.dog:hover{
+    filter: brightness(10%);
+    transform: translate(30px);
+}
+/* animasi untuk mengatur pergerakan gambar , infinite untuk mengulang - ulang*/
+.cat{
+    animation: bergerak 1s infinite;
+}

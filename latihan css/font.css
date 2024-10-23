@@ -1,0 +1,30 @@
+/*font-face untuk memasukan link font yang di download di fonts.google.com  */
+
+@font-face{
+    font-family:'fontsaya' ;
+    src:url(../saya/BacasimeAntique-Regular.ttf)
+}
+
+h1{
+    font-family: fontsaya;
+    font-size: 50px;
+    font-weight: normal;
+    font-variant: small-caps;
+    font-style: italic;
+    line-height: 50px;
+}
+p{
+    /* ini style2 dalam font */
+    /* font-family untuk semua kata dalam tag */
+    font-family: fontsaya;
+    /* font-size untuk ukuran kata */
+    font-size: 15px;
+    /* font-weight untuk ukuran khusus seperti menebalkan kata */
+    font-weight: bold;
+    /* font-variant untuk variasi kata */
+    font-variant: inherit;
+    /* font-sytle untuk ukuran khusus seperti memiringkan kata */
+    font-style: oblique;
+    /* line-height untuk ukuran jarak antar kata */
+    line-height: 25px;
+}

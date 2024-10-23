@@ -1,0 +1,12 @@
+
+/* border adalah penjarak pada setiap content dan membuat nya kotak2 dan pada bagian padding menunjukan 3 ukuran sisi yaitu kanan atas kiri */
+/* dan untuk margin pemisah antar kotak2 yang dibuat oleh padding  */
+div{
+    color: greenyellow;
+    width: 200px;
+    height: 100px;
+    padding: 20x 10px 40px;
+    border: solid 5px navy;
+    margin: 10px 20px 30px 40px;
+    background-color: red;
+}

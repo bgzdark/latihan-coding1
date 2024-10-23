@@ -1,0 +1,15 @@
+
+/* untuk transform untuk mengubah tata letak sebuah gambar pada y untuk atas bawah dan x untuk kanan kiri */
+/* ada pula skew untuk memiringkan satu sudut pada bagian x dan y */
+/* untuk rotate3d untuk memutar gambar */
+/* scale utnuk memperbesar gambar */
+/* untukk filter untuk mengubah warna pada gambar */
+.dog{
+    transform: translate3d(30px,20px);
+    filter: grayscale();
+    
+}
+
+.cat {
+    filter: brightness(50%);
+}

@@ -1,0 +1,29 @@
+
+/* atribut yang di display none akan menghilang */
+#hilang{
+    display: none;
+}
+/* untuk display inline untuk mengecilkan jangkauan contoh div memiliki jankauan yang tak terbatas jika digunakan
+    display nya akan mengurangi jangkauan seperti span */
+/* untuk display inline block kita bisa sesuka hati mengatur jangkauannya
+  */
+div{
+    background-color: red;
+    display: inline;
+}
+/* untuk display block kebalikan dari display inline */
+span{background-color: yellow;
+    width: 300px;
+    display: block;
+}
+
+ul{
+    list-style: none;
+    background-color: navy;
+}
+li{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    background-color: red;
+}

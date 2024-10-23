@@ -1,0 +1,33 @@
+body{
+    background-color: aquamarine;
+}
+
+.navbar{
+    justify-content: space-between;
+    padding: 10px;
+    align-content: center;
+}
+.main_content  {
+    gap: 20px;
+    padding-right: 20px;
+    
+}
+
+
+.main_content a{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.sub-nav{
+    text-decoration: none;
+    font-size: x-large;
+    margin-top: -0.5em;
+}
+
+.sub-navbar{
+
+    position: relative;
+    padding-right: 10px;
+
+}

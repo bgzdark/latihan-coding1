@@ -1,0 +1,12 @@
+div{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    width: 50%;
+    height: 50%;
+    top: 50px;
+    right: 20px;
+
+}
+h1{
+    right: 50%;
+}

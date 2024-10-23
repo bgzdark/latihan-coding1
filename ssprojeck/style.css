@@ -1,0 +1,378 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0;
+    background-color: black;
+  }
+  
+  .navbar {
+    /* Add a black background color to the top navigation */
+    overflow: hidden; /*untuk menghilangkan tanda scroll */
+    font-family: arial; /* untuk menentukan ukuran huruf */
+    width: 100%;
+    border: red;
+    margin-top: 10px; /* untuk menanta sesuatu dibagian atas margin / diatas */
+  }
+  
+  .navbar h1 {
+    color: #D00000;
+    display: inline;
+    float: left; /* untuk memberikan efek mengapung pada teks */
+    margin-top: 2px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center; /* untuk menata tulisan di bagian tengah(center) */
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 13px;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover /* hover ialah melakukan sesuatu setelah nya atau saat di sentuh kursor */ {
+    font-weight: 1000;
+  }
+  
+  /* Add a color to the active/current link */
+  .navbar a.active /* a. active ialah mengidetifikasi di tag a dengan class bernama ative */ {
+    color: white;
+  }
+  /* untuk membuat kolom pencarian */
+  .navbar input[type=text] {
+    padding: 6px;
+    border: 1px solid black;
+    margin-top: 8px;
+    margin-right: 15px;
+    font-size: 15px;
+    background-color: white;
+    position: absolute;
+    left: 58%;
+  }
+  
+  .navbar .children {
+    float: right;
+    margin-right: 150px;
+  }
+  
+  .profile-icon {
+    float: right;
+    margin-top: 10px;
+    margin-right: 42px;
+    border-radius: 0;
+  }
+  
+  .fa-gift,
+  .fa-bell,
+  .fa-caret-down {
+    color: white;
+    float: right;
+    margin-top: 15px;
+  }
+  
+  .fa-caret-down {
+    position: absolute; 
+    right: 2%; 
+  }
+  
+  .fa-gift {
+    margin-top: 6px;  
+  }
+  
+  .fa-search {
+    color: white;
+    position: absolute;
+    left: 55%;
+    margin-top: 15px;
+  }
+  
+  .fa-gift {
+    position: absolute;
+    right: 13%;
+  }
+  
+  .fa-bell {
+    margin-top: 8px;
+    position: absolute;
+    right: 8%;
+  }
+  
+  .fa-caret-down {
+    position: absolute;
+  }
+  
+  .fa-chevron-circle-down {
+    margin-left: -50px;
+  }
+  
+  .fa-chevron-circle-down {
+    position: relative;
+    left: 85px;
+  }
+  
+  h3 {
+    color: white;
+    font-family: arial;
+    position: relative;
+    top: 35px;  
+    left: 50px;
+  }
+  
+  
+  #title-2 {
+    position: relative;
+    top: -55px;
+  }
+  
+  #h3 {
+    top: -10px;
+  }
+  
+  #title-3 {
+    position: relative;
+    top: -20px;
+    left: 60px;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  table, li {
+    margin-top: -7px;
+    margin-left: 10px;
+  }
+  
+  .container2,
+  .container3 {
+    margin-top: -90px;
+  }
+  
+  .container1,
+  .container2,
+  .container3 {
+       display: grid;
+       grid-template-columns: repeat(3,100%);
+       overflow: visible !important;
+       margin-left: 45px;    
+  } 
+  
+  section {
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    margin: 20px 0;  
+  }
+  
+  .item {
+    transition: transform 1000ms; /* untuk memberikan efek kecepatan dengan kecepatan tertentu */
+    border-radius: 1.5em;
+  }
+  
+  .item:hover { 
+     margin: 0 50px;
+     transform: scale(1.5); /* untuk memberikan efek gerakan kearah tertentu sesuai dengan function nya, dalam kurung adalah ukuran perubahan nya*/
+  }
+  
+  .item:hover .item-description { 
+      color: white;
+      font-family: arial;
+      font-size: 10px;
+      position: static;
+      transform: translate(0, 0);
+      white-space: pre-wrap;
+      background: rgb(24,25,26);
+      width: 100%;
+      top: -7px;
+      left: 105px;
+      line-height: 65%; 
+  }
+  
+  .item:hover span{
+      color: #38B000;
+      font-weight: 700;
+  }
+  
+  .item-2 {
+    position: relative;
+    left: -100px;
+    margin-top: 37px;
+    height: 165px;
+    width: 120px; 
+  }
+  
+  .container-2 .item:focus,
+  .container-2 .item:hover {
+    transform: scale(1.5);
+    z-index: 1;
+  }
+  
+  .container-4 .item:focus,
+  .container-4 .item:hover {
+    transform: scale(1.5);
+    z-index: 1;
+  }
+  
+  .container-5 .item:focus,
+  .container-5 .item:hover {
+    transform: scale(1.5);
+    z-index: 1;
+  }
+  
+  .item:focus ~ .item,
+  .item:hover ~ .item {
+    transform: translateX(5%);
+  }
+  
+  .numbers {
+    font-size: 200px;
+    font-weight: 600;
+    font-family: impact;
+    -webkit-text-stroke: 5px grey;
+    margin-left: 25px;  
+  }
+  
+  #pic-1 {
+    position: absolute;
+    left: 8%;
+  }
+  
+  #two {
+    position: absolute;
+    left: 20%;
+  }
+  
+  #pic-2 {
+    position: absolute;
+    left: 29%;
+  }
+  
+  #three {
+    position: absolute;
+    left: 40%;
+  }
+  
+  #pic-3 {
+    position: absolute;
+    left: 50%;
+  }
+  
+  #four{
+     position: absolute;
+     left: 61%;
+  }
+  
+  #pic-4 {
+     position: absolute;
+     left: 70%;
+  }
+  
+  #five {
+     position: absolute;
+     left: 80%;
+  }
+  
+  #pic-5 {
+     position: absolute;
+     left: 90%;
+  }
+  
+  #pic-6 {
+     position: absolute;
+     left: 9%;
+  }
+  
+  #seven {
+     position: absolute;
+     left: 19%;
+  }
+  
+  #pic-7 {
+     position: absolute;
+     left: 27%;
+  }
+  
+  #eight {
+     position: absolute;
+     left: 36%;
+  }
+  
+  #pic-8 {
+     position: absolute;
+     left: 45%;
+  }
+  
+  #nine {
+     position: absolute;
+     left: 55%;
+  } 
+  
+  #pic-9 {
+      position: absolute;
+      left: 65%;
+  }
+  
+  #ten {
+      position: absolute;
+      left: 75%;
+  }
+  
+  #pic-10 {
+      position: absolute;
+      left: 90%;
+  }
+  
+  .arrow__btn {
+      position: absolute;
+      color: #fff;
+      text-decoration: none;
+      font-size: 6em;
+      background:rgb(0,0,0);
+      width: 80px;
+      padding: 20px;
+      text-align: center;
+      z-index: 1;
+  }  
+  
+  #arrow__btn {
+      top: 15.5%;
+  }
+       
+  .arrow__btn:nth-of-type(1) {
+      top:0; bottom:0; left:0;
+      background: linear-gradient(-90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+  }
+  
+  .arrow__btn:nth-of-type(2) {
+       top:0; bottom:0; right: 0;
+       background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+  }
+    
+  img {
+       border-radius: .5em;
+       width: 99%;
+  }
+      
+  
+  
+  /* Remove the arrow for Mobile */
+  @media only screen and (max-width: 600px) {
+    a.arrow__btn {
+      display:none;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

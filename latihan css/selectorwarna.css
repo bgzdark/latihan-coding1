@@ -1,0 +1,42 @@
+
+
+/* untuk menggungakan css dalam tag tidak menggukana apa2 hanya tulis kata yang dimaksud */
+h1 {
+    color:  red;
+}
+.alignment {
+    text-align: justify;
+}
+.decoration{
+    text-decoration: underline line-through
+    overline red;
+}
+.transformation{
+    text-decoration: lowercase;
+}
+.spacing{
+    text-indent: 20px;
+    letter-spacing: 0.2px;
+    word-spacing: 5px;
+    white-space: nowrap;
+    line-height: 60px;
+}
+/* untuk shadow angka pertama untuk ukuranx angka kedua untuk tinggi, angka ketiga untuk blur tulisan.
+semakin tinggi angka nya akan semakin kelihatan */
+.shadow{
+    text-shadow: 20px 20px 10px red;
+}
+/* untuk menggunakan atribut class dalam css harus menambahkan (.) sebelum dari kata nya */
+.red {
+    color: red;
+
+}
+/* untuk menggunakan atribut id dalam css harus menambahkan (#)sebelum dari kata nya */
+#idred{
+    color: red;
+}
+/* untuk menggunakan atribut dalam element harus menggukana ([]) dalam katanya */
+[placeholder="html"]{
+    color: red;
+}
+

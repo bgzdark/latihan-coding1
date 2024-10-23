@@ -1,0 +1,37 @@
+/*
+ macam2 element background
+1. background-color untuk mengatur warna pada background
+2. background-image untuk mengatur gambar yang akan digunakan pada background
+3. background-position untuk mengatur posisi gambar pada background
+4. background-repeat untuk jenis pengulangan gambar pada background 
+
+dari 4 element diatas bisa disatukan menjadi background:color url() position repeat;
+contoh                           :           backgroung: lightgreen url(bg.png) top left no-repeat;      
+*/
+
+h1{
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+body{
+    height: 50%;
+    background-image: url("../html latihan/minato.jpg");
+    background-size: cover;
+    /* backgroung-repeat untuk pengulangan dari sebuah gambar background */
+    background-repeat: no-repeat;
+    /* background-attachment untuk melakukan paralel space
+     */
+    background-attachment: scroll;
+}
+.div1 {
+     /* background-color:#989898 ; */
+    /* jika background ingin difullkan ke bawah maka menggunakan background repeat-y jika ke samping maka menggunakan background repeat-x  */
+    
+    height: 700x;
+    background-size: cover;
+    /* untuk background-position bisa menggunakan top/center/bottom untuk sumbu y atau vertikal, 
+        menggunakan left/center/right untuk sumbu x atau horizontal untuk menggabung kan hanya membutuhka 2 item saja  */
+    background-position:center ;
+}

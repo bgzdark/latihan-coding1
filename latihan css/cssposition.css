@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.h-700{
+    height: 700px;
+}
+
+.bg-salmon{
+    background-color: salmon;
+}
+/* untuk position relative akan menentukan letak sesuai dengan realtive terdekat seperti contoh di bawah */
+.box{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    left: 50px;
+    top: 50px;
+    background-color: teal;
+}
+
+.bg-green{
+    background-color: green ;
+}
+/* position untuk mengatur letak apa pun bisa mengikuti scrole dengan fixed dan sticky hampir sama dengan fixed mengatur letak */
+.position{
+    background: gray;
+    padding: 20px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    left: 20px;
+}

@@ -1,0 +1,16 @@
+
+/* jika ingin mengatur style pada banyak tag bisa menggunakan dengan "," koma */
+/* jika ingin melakukan pada sebuah tag tag dengan memiliki class tapi tidak semua bisa menggunakan ">" lebih dari*/
+/* jika ingin melakukan style pada semua tag yang berlongkapan bisa menggunakan spasi */
+/* untuk focus untuk mengatur style atau mewarnai pada tag yang dimaksud */
+input:focus{
+    background-color: red;
+}
+/* untuk hover untuk mengatur style atau mewarnai pada tag yang dimaksud */
+h1:hover{
+    color:red
+}
+
+a:visited{
+    color: yellow;
+}

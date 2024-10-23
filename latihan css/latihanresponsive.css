@@ -1,0 +1,59 @@
+
+ul {
+    list-style: none;
+    text-align: right;
+    padding: 0;
+}
+
+.icon{
+    float:left;
+}
+
+.icon > h2{
+    margin: 0;
+}
+
+li{
+    font-size: 1rem;
+    padding: 15px 25px;
+    display: inline-block;
+}
+
+.button-green{
+    background-color: chartreuse;
+    color: white;
+}
+
+.center{
+     text-align: center;
+}
+/* max width dan width untuk mengatur tata letak pada desktop, tab, phone agar sesuai pada ketiga device tersebut dengan 1 kali sintak  */
+img{
+    width: 100%;
+    max-width: 700px;
+}
+
+.mobile{
+    display: none;
+}
+
+.icon.mobile{
+    background-color: black;
+    color: white;
+}
+
+h2{
+   font-size: 1rem;
+}
+
+@media only screen and (max-width: 600px){
+    html{
+        font-size: 12px;
+    }
+    .mobile{
+        display: block;
+    }
+    .desktop{
+        display:none;
+    }
+}

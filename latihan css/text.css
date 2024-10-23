@@ -1,0 +1,20 @@
+h1{
+    font-size:100px ;
+    color:#ff00d2;
+    /* line-through untuk mencoret kata */
+    text-decoration: line-through;
+    text-transform: capitalize ;
+}
+p{
+    text-indent: 10px ;
+    text-transform: capitalize;
+    /* letter-spacing untuk jarak antar huruf */
+    letter-spacing: 5px;
+    /* word-spacing untuk jarak antar kata */
+    word-spacing: 1.5px;
+
+}
+
+a{
+    text-decoration:none ;
+}

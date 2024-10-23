@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>latihan tabel</title>
+</head>
+<body>
+    <!-- atribut dalam tabel ialah border, cellspacing, cellpadding, colspan, rowspan -->
+    <!-- simple tabel -->
+    <table>
+        <!-- tr adalah  baris-->
+        <tr>
+            <!-- td adalah kolom -->
+            <td>baris 1, kolom 1</td>
+            <td>baris 1, kolom 2</td>
+        </tr>
+        <td>baris 2, kolom 1</td>
+        <td>baris 2, kolom 2</td>
+    </table>
+    <hr>
+    <!-- tabel complex -->
+    <!-- border untuk ketebalan garis kolom -->
+    <!-- cellpading dan cellspacing untuk jarak kata dalam kolom -->
+    <table border="5" cellspacing="0" cellpadding="5">
+        <!-- thead adalah tabel header -->
+        <!-- colspan untuk menggabungkan 2 buah cell horizontal sedankan rowspan untuk menggabungkan 2 buah cell vertikal-->
+        <thead>
+            <tr>
+                <!-- th adalah tabel header -->
+                <th>No</th>
+                <th>kolom 1</th>
+                <th>kolom 2</th>
+            </tr>
+        </thead>
+        <!--  -->
+        <tbody>
+            <tr>
+                <th>baris 1</th>
+                <td>baris 1, kolom 1</td>
+                <td>baris 1, kolom 2</td>
+            </tr>
+            <tr>
+                <th>baris 2</th>
+                <td>baris 2, kolom 1</td>
+                <td>baris 2, kolom 2</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <table border="1" cellspacing="0" cellpadding="30">
+            <tr>
+                
+                <td>1,1</td>
+                <td>1,2</td>
+                <td>1,3</td>
+                <td>1,4</td>
+            </tr>
+            <tr>
+                <td>2,1</td>
+                <td colspan="2" rowspan="2">colspan rowspan 2
+                    2,2 dan 2,3
+                </td>
+                <td>2,4</td>
+            </tr>
+            <tr>
+                <td>3,1</td>
+                <td>3,4</td>
+            </tr>
+            <tr>
+                <td>4,1</td>
+                <td>4,2</td>
+                <td>4,3</td>
+                <td>4,4</td>
+            </tr>
+    </table>
+
+</body>
+</html>

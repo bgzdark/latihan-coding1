@@ -1,0 +1,136 @@
+
+body{
+    background-color: cyan;
+    color: rgb(71, 80, 72);
+}
+.lead-content{
+    background-image: url("../../html\ latihan/minato.jpg");
+    width: 1245px;
+    height: 500px;
+}
+
+.icon{
+    width:50px;
+    height: 70px;
+    border-radius: 200px;
+    position: relative;
+    right: 17%;
+}
+.center-vertical{
+    display: inline-block;
+    height:10px;
+}
+
+.icon-logo{
+    display: inline-block;
+    position: relative;
+    right: 390px;
+}
+.navi{
+    width: 1250px;
+}
+.masuk{
+    position: relative;
+    right: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(71, 80, 72);
+}
+ul{
+    text-decoration: none;
+    color: rgb(71, 80, 72);
+    font-size: larger;
+    font-family: 'VT323', monospace;
+    list-style:none;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    font-size: larger;
+    background-color: rgb(230, 245, 62);
+    height: 100px;
+}
+
+
+h1{
+    text-align: center;
+    vertical-align: middle;
+    transform: translateY(300px);
+    height: 200px;
+    color: rgb(50, 60, 60);
+}
+
+#username{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    color: black;
+    box-shadow:  0px 0px 1px gray;
+    transition: 1s;
+}
+
+#username:hover{
+    background-color: #64b9f5 ;
+    box-shadow: 3px 5px 1px black;
+}
+
+#password{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    color: black;
+    box-shadow:  0px 0px 1px gray;
+    transition: 1s;
+}
+#password:hover{
+    background-color: #64b9f5 ;
+    box-shadow: 3px 5px 1px black;
+}
+
+button{
+    background-color: #2a9ff5;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    /* pada nomor pertama pada box-shadow untuk mengatur tampak pada sumbu x 
+        pada nomor kedua pada box-shadow untuk mengatur tampak pada sumbu y
+        pada nomor ketiga pada box-shadow untuk mengatur tampak blur
+        yang terakhir untuk warna nya*/
+    box-shadow: 0px 0px 1px gray;
+    transition-duration: 1s;
+}
+/* button hover backgroung-color untuk menambahkan warna saat diklik */
+button:hover{
+    background-color: navy;
+    box-shadow: 0px 10px 1px gray;
+    transform: translateY(-1em);
+}
+
+/* active keadaan pada tombol diklik */
+button:active{
+    box-shadow: 0px 5px 1px gray;
+    transform: translateY(-5px);   
+}
+/* focus untuk saat diklik dan di lepas klikan nya */
+button:focus{
+    outline:none;
+}
+
+.hobby{
+    border-radius: 30px;
+    height: 300px;
+    position: relative;
+    left: 140px;
+}
+
+.info{
+    text-align: center;
+    position: relative;
+    right: 20%;
+}
+
+.isi{
+    position: relative;
+    vertical-align: middle;
+    left: 270px;
+}

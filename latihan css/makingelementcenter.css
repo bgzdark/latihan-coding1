@@ -1,0 +1,30 @@
+
+/* margin untuk trick mudah mengatur letak gambar */
+.dog{
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.icon{
+    width: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+/* untuk isi dari div dan center-vertical akan menata letak suatu icon ke tengah */
+div{
+    background-image: 
+    url("https://plus.unsplash.com/premium_photo-1676654935950-b46dff085a63?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=1000&q=60");
+    height: 700px;
+    text-align: center;
+}
+.center-vertical{
+    display: inline-block;
+    height: 700px;
+    vertical-align: middle;
+}
+
+.text{
+    display: inline-block;
+}
+
